@@ -43,6 +43,7 @@ Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://b
 | :----------------------- | :------------------------------------------------------------------------------ |
 | Country                  |                                                                               |
 | Continent                |                                                                               |
+| Year                     |                                                                               |
 | Population               |                                                                               |
 | Land                     |                                                                               |
 | PopulationDensity        |                                                                               |
@@ -57,7 +58,7 @@ Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://b
 | InflationRate            |                                                                               |
 | Unemployment             |                                                                               |
 
-*Primary key*: (Country, Year, Month)
+*Primary key*: (Country, Year)
 
 - *Temperature*：
 
