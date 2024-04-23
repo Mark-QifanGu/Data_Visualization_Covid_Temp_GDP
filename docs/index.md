@@ -23,6 +23,7 @@ Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://b
 
 ## Overview of the Datasets:
 - *Covid Cases*:
+
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
 | Country                  |                                                                               |
@@ -36,6 +37,7 @@ Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://b
 *Primary key*: (Country, Year, Month)
 
 - *GDP*：
+
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
 | Country                  |                                                                               |
@@ -49,6 +51,7 @@ Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://b
 *Primary key*: (Country, Year, Month)
 
 - *Temperature*：
+
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
 | Country                  |                                                                               |
@@ -62,6 +65,7 @@ Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://b
 *Primary key*: (Country, Year, Month)
 
 - *Vaccines*：
+
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
 | Country                  |                                                                                 |
