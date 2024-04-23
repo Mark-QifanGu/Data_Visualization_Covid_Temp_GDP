@@ -38,27 +38,27 @@ Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://b
 - *GDP*：
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
-| Country                  |                                                                                |
-| Year                     |                                                                                |
-| Month                    |                                                                                |
-| CumulativeTotalCases     |                                                                                |
-| MonthlyNewCases          |                                                                                |
-| ActiveCases              |                                                                                |
-| CumulativeTotalDeaths    |                                                                                |
-| MonthlyNewDeaths         |                                                                                |
+| Country                  |                                                                               |
+| Year                     |                                                                               |
+| Month                    |                                                                               |
+| CumulativeTotalCases     |                                                                               |
+| MonthlyNewCases          |                                                                               |
+| ActiveCases              |                                                                               |
+| CumulativeTotalDeaths    |                                                                               |
+| MonthlyNewDeaths         |                                                                               |
 *Primary key*: (Country, Year, Month)
 
 - *Temperature*：
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
-| Country                  |                                                                                 |
-| Year                     |                                                                                 |
-| Month                    |                                                                                 |
-| CumulativeTotalCases     |                                                                                 |
-| MonthlyNewCases          |                                                                                 |
-| ActiveCases              |                                                                                 |
-| CumulativeTotalDeaths    |                                                                                 |
-| MonthlyNewDeaths         |                                                                                 |
+| Country                  |                                                                               |
+| Year                     |                                                                               |
+| Month                    |                                                                               |
+| CumulativeTotalCases     |                                                                               |
+| MonthlyNewCases          |                                                                               |
+| ActiveCases              |                                                                               |
+| CumulativeTotalDeaths    |                                                                               |
+| MonthlyNewDeaths         |                                                                               |
 *Primary key*: (Country, Year, Month)
 
 - *Vaccines*：
