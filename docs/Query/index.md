@@ -107,6 +107,7 @@ SELECT
   MonthlyNewCases
 FROM Covid_Data;
 ```
+<br>
 
 ```sql
 CREATE INDEX idx_gdp_year ON Economic_Data(GDP, Year);
@@ -119,6 +120,7 @@ SELECT
   Unemployment
 FROM Economic_Data;
 ```
+<br>
 
 ```sql
 CREATE INDEX idx_temperature_year_month ON Temperature_Data(Year, Month);
@@ -132,6 +134,7 @@ SELECT
 FROM Temperature_Data
 GROUP BY AreaCode, Country, Year, Month;
 ```
+<br>
 
 ```sql
 CREATE INDEX idx_fully_vaccinated ON Vaccination_Data(PeopleFullyVaccinated);
@@ -144,6 +147,7 @@ SELECT
   PeopleFullyVaccinated
 FROM Vaccination_Data;
 ```
+<br>
 
 ### To verify index:
 ```sql
@@ -171,6 +175,8 @@ CREATE TABLE Economic_Data_Audit (
 );
 DELIMITER $$
 ```
+<br>
+
 ```sql
 CREATE TRIGGER before_economic_data_update
 BEFORE UPDATE ON Economic_Data
@@ -184,6 +190,7 @@ END$$
 
 DELIMITER ;
 ```
+<br>
 
 ### -- Verify Trigger
 ```sql
