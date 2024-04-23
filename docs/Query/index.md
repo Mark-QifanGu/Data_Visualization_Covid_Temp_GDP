@@ -25,5 +25,5 @@
 ```sql
 SELECT * FROM Covid_Data WHERE Country = 'China' ORDER BY Year, Month;
 ```
-
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/2NF.png" width="90%" alt="Normalization 2NF">
 
