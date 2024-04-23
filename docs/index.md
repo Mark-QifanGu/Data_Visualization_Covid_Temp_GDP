@@ -36,6 +36,7 @@ Link: [ER Model](ER/ "Link to ER Model") | [Normalization](Norm/ "Link to Normal
 | MonthlyNewDeaths         | Designates the monthly new number of confirmed deaths on the row's month, for the row's country.|
 
 *Primary key*: (Country, Year, Month)
+
 Original dataset: https://www.kaggle.com/datasets/josephassaker/covid19-global-dataset
 
 - *GDP*：
