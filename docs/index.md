@@ -22,19 +22,15 @@
 Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://baidu.com "Link to Normalization") | [SQL Query](http://baidu.com "Link to SQL Query")
 
 ## Overview of the Datasets:
-1.Covid Cases
--
--
+- *Covid Cases*：
 
-2.GDP
--
--
 
-3.Temperature
--
--
+- *GDP*：
 
-4.Vaccines
--
--
+
+- *Temperature*：
+
+
+- *Vaccines*：
+
 
