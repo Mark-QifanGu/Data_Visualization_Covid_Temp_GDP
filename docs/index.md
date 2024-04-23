@@ -21,19 +21,20 @@
 # Database Design
 Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://baidu.com "Link to Normalization") | [SQL Query](http://baidu.com "Link to SQL Query")
 
-## ==Overview of the Datasets:==
-- *Covid Cases*：
-|Attributes|Explaination|
-|:-------------------------|:--------------------------------------------------------------------------------------|
-|Country| |
-|Year| |
-|Month| |
-|CumulativeTotalCases| |
-|MonthlyNewCases| |
-|ActiveCases| |
-|CumulativeTotalDeaths| |
-|MonthlyNewDeaths| |
-*Primary key*: (Country,Year,Month)
+## Overview of the Datasets:
+- *Covid Cases*:
+
+| Attributes               | Explanation                                                                     |
+| :----------------------- | :------------------------------------------------------------------------------ |
+| Country                  |                                                                               |
+| Year                     |                                                                               |
+| Month                    |                                                                               |
+| CumulativeTotalCases     |                                                                               |
+| MonthlyNewCases          |                                                                               |
+| ActiveCases              |                                                                               |
+| CumulativeTotalDeaths    |                                                                               |
+| MonthlyNewDeaths         |                                                                               |
+
 
 - *GDP*：
 
