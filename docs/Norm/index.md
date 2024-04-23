@@ -21,9 +21,9 @@
 # <span style="background-color: yellow;">Database Design</span>
 ## Normalization:
 
-Unnormalized Form (UNF) -->~remove repeating groups~ First Normal Form (1NF)
-First Normal Form (1NF) -->~remove partial dependencies~ Second Normal Form (2NF)
-Second Normal Form (2NF) -->~remove transitive dependencies~ Third Normal Form (3NF)
+Unnormalized Form (UNF) ^remove repeating groups^--> First Normal Form (1NF)
+First Normal Form (1NF) ^remove partial dependencies^--> Second Normal Form (2NF)
+Second Normal Form (2NF) ^remove transitive dependencies^--> Third Normal Form (3NF)
 
 ### 3 NF:
 <img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Norm.png" width="70%" alt="Normalization">
