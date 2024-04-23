@@ -10,7 +10,7 @@
         </li>
         <li><a href="/Data_Visualization_Covid_Temp_GDP/Cases/">Covid Cases</a></li>
         <li><a href="/Data_Visualization_Covid_Temp_GDP/GDP/">GDP</a></li>
-        <li><a href="//Data_Visualization_Covid_Temp_GDPTemp/">Temperature</a></li>
+        <li><a href="//Data_Visualization_Covid_Temp_GDP/Temp/">Temperature</a></li>
         <li><a href="/Data_Visualization_Covid_Temp_GDP/Vac/">Vaccines</a></li>
         <li><a href="/Data_Visualization_Covid_Temp_GDP/Visual/">Other Visualization</a></li>
     </ul>
