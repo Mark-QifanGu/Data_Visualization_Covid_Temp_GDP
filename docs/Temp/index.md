@@ -29,3 +29,6 @@
 | AvgTemperature           | The average temperature for the country in that month.                        |
 
 *Primary key*: (Country, Year, Month)
+
+
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/temp.png" width="90%" alt="Temperature">
