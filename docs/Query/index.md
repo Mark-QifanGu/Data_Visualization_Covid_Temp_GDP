@@ -18,4 +18,12 @@
 
 
 
-# <span style="background-color: yellow;">Database Design</span>
+# <span style="background-color: yellow;">SQL Query</span>
+
+## 1.Extract Covid-19 Case Trends for Specific Countries
+
+'''sql
+SELECT * FROM Covid_Data WHERE Country = 'China' ORDER BY Year, Month;
+
+
+
