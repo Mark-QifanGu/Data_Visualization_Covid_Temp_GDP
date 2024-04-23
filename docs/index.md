@@ -22,7 +22,7 @@
 Link: [ER Model](ER/ "Link to ER Model") | [Normalization](Norm/ "Link to Normalization") | [SQL Query](Query/ "Link to SQL Query")
 
 ## Overview of the Datasets:
-### - *Covid Cases*:
+- ### *Covid Cases*:
 
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
@@ -40,7 +40,7 @@ Link: [ER Model](ER/ "Link to ER Model") | [Normalization](Norm/ "Link to Normal
 Original dataset: https://www.kaggle.com/datasets/josephassaker/covid19-global-dataset
 
 
-### - *Economic*：
+- ### *Economic*：
 
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
@@ -86,7 +86,7 @@ https://earthobservatory.nasa.gov/world-of-change/global-temperatures
 https://www.kaggle.com/datasets/gauravduttakiit/global-temperature?select=GlobalLandTemperaturesByCountry.csv
 
 
-### - *Vaccines*：
+- ### *Vaccines*：
 
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
