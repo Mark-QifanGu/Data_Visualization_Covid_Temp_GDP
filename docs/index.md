@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-# view
+# view for covid
 <nav>
     <ul>
         <li><a href="#">Home</a></li>
