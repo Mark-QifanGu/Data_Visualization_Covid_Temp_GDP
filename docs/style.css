@@ -32,6 +32,6 @@ nav ul li:hover > ul {
     display: block; /* 当鼠标悬停在列表项上时显示二级菜单 */
 }
 
-nav ul ul li {
-    display: block; /* 保证二级菜单项竖直排列 */
+nav > ul > li > ul > li {
+    display: block; /* 确保这条规则应用于二级菜单的列表项 */
 }
