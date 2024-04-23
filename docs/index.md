@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
 <nav>
     <ul>
-        <li><a href="/docs/">Database Design</a>
+        <li><a href="/Data_Visualization_Covid_Temp_GDP/docs/">Database Design</a>
             <ul>
                 <li><a href="/ER/index.md">ER Model</a></li>
                 <li><a href="/Norm/index.md">Normalization</a></li>
