@@ -36,9 +36,11 @@ Link: [ER Model](ER/ "Link to ER Model") | [Normalization](Norm/ "Link to Normal
 | MonthlyNewDeaths         | Designates the monthly new number of confirmed deaths on the row's month, for the row's country.|
 
 *Primary key*: (Country, Year, Month)
+
 Original dataset: https://www.kaggle.com/datasets/josephassaker/covid19-global-dataset
 
-- *GDP*：
+
+- *Economic*：
 
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
@@ -61,6 +63,9 @@ Original dataset: https://www.kaggle.com/datasets/josephassaker/covid19-global-d
 
 *Primary key*: (Country, Year)
 
+Original dataset: https://www.kaggle.com/datasets/yusufglcan/country-data
+
+
 - *Temperature*：
 
 | Attributes               | Explanation                                                                     |
@@ -72,6 +77,14 @@ Original dataset: https://www.kaggle.com/datasets/josephassaker/covid19-global-d
 | AvgTemperature           |                                                                               |
 
 *Primary key*: (Country, Year, Month)
+
+Original dataset: https://www.fao.org/faostat/en/#data/ET/metadata
+Reference:
+https://data.giss.nasa.gov/gistemp/
+https://www.columbia.edu/~mhs119/Temperature/
+https://earthobservatory.nasa.gov/world-of-change/global-temperatures
+https://www.kaggle.com/datasets/gauravduttakiit/global-temperature?select=GlobalLandTemperaturesByCountry.csv
+
 
 - *Vaccines*：
 
@@ -88,3 +101,6 @@ Original dataset: https://www.kaggle.com/datasets/josephassaker/covid19-global-d
 
 *Primary key*: (Country, Year, Month)
 				
+Original dataset: https://www.kaggle.com/datasets/gpreda/covid-world-vaccination-progress?resource=download
+
+Country location: https://www.kaggle.com/datasets/paultimothymooney/latitude-and-longitude-for-every-country-and-state
