@@ -15,7 +15,7 @@
     </ul>
 </nav>
 
-#Database Design
+# Database Design
 Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://baidu.com "Link to Normalization") | [SQL Query](http://baidu.com "Link to SQL Query")
 
 ## Overview of the Datasets:
