@@ -66,7 +66,7 @@ Original dataset: https://www.kaggle.com/datasets/josephassaker/covid19-global-d
 Original dataset: https://www.kaggle.com/datasets/yusufglcan/country-data
 
 
-### - *Temperature*：
+- ### *Temperature*：
 
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
