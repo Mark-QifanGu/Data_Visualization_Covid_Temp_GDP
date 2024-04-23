@@ -26,16 +26,17 @@ Link: [ER Model](ER/ "Link to ER Model") | [Normalization](Norm/ "Link to Normal
 
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
-| Country                  |                                                                               |
-| Year                     |                                                                               |
-| Month                    |                                                                               |
-| CumulativeTotalCases     |                                                                               |
-| MonthlyNewCases          |                                                                               |
-| ActiveCases              |                                                                               |
-| CumulativeTotalDeaths    |                                                                               |
-| MonthlyNewDeaths         |                                                                               |
+| Country                  | Designates the Country in which the the row's data was observed.              |
+| Year                     | Designates the year of observation of the row's data.                         |
+| Month                    | Designates the month of observation of the row's data.                        |
+| CumulativeTotalCases     | Designates the cumulative number of confirmed cases as of the row's month, for the row's country.|
+| MonthlyNewCases          | Designates the monthly new number of confirmed cases on the row's date, for the row's country.|
+| ActiveCases              | Designates the number of active cases (i.e., confirmed cases that still didn't recover nor die) on the row's date, for the row's country.|
+| CumulativeTotalDeaths    | Designates the cumulative number of confirmed deaths as of the row's month, for the row's country.|
+| MonthlyNewDeaths         | Designates the monthly new number of confirmed deaths on the row's month, for the row's country.|
 
 *Primary key*: (Country, Year, Month)
+Original dataset: https://www.kaggle.com/datasets/josephassaker/covid19-global-dataset
 
 - *GDP*：
 
