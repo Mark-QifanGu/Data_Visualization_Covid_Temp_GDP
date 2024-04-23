@@ -25,5 +25,15 @@ Unnormalized Form (UNF) --><sub>remove repeating groups</sub> First Normal Form 
 First Normal Form (1NF) --><sub>remove partial dependencies</sub> Second Normal Form (2NF)<br>
 Second Normal Form (2NF) --><sub>remove transitive dependencies</sub> Third Normal Form (3NF)<br>
 
+### 1 NF:
+
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/ERModel.png" width="90%" alt="Normalization 1NF">
+
+
+### 2 NF:
+
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Norm.png" width="90%" alt="Normalization 2NF">
+
+
 ### 3 NF:
-<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Norm.png" width="70%" alt="Normalization">
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Norm.png" width="90%" alt="Normalization 3NF">
