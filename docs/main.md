@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 # view
 <nav>
     <ul>
