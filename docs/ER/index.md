@@ -19,5 +19,5 @@
 
 
 # <span style="background-color: yellow;">Database Design</span>
-### ER Model:
-<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/ERModel.png" width="50%" alt="ERModel">
+## ER Model:
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/ERModel.png" width="70%" alt="ERModel">
