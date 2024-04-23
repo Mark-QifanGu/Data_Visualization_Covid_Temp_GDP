@@ -8,6 +8,8 @@ nav ul li {
     display: inline-block; /* 将列表项设为内联块级元素，使其水平排列 */
     margin-right: 10px; /* 在列表项之间添加一些间距 */
     position: relative; /* 添加相对定位属性 */
+    background-color: #f2f2f2; /* 浅灰色底色 */
+    padding: 10px; /* 添加一些内边距 */
 }
 
 nav ul ul {
@@ -26,4 +28,6 @@ nav ul li:hover > ul {
 
 nav ul ul li {
     display: block; /* 保证二级菜单项竖直排列 */
+    background-color: #f2f2f2; /* 浅灰色底色 */
+    padding: 10px; /* 添加一些内边距 */
 }
