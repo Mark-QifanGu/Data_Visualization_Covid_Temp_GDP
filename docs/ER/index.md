@@ -19,3 +19,5 @@
 
 
 # <span style="background-color: yellow;">Database Design</span>
+### ER Model:
+![4ede7444ccbfdcbe00a1b6365ffa364](https://github.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/assets/124019713/b26a655d-4dfd-44e6-80cb-771b816e38a3)
