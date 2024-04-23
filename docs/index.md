@@ -85,14 +85,15 @@ https://www.columbia.edu/~mhs119/Temperature/
 https://earthobservatory.nasa.gov/world-of-change/global-temperatures
 https://www.kaggle.com/datasets/gauravduttakiit/global-temperature?select=GlobalLandTemperaturesByCountry.csv
 
+(Notice: We used the monthly average temperature difference plus the standard baseline monthly average temperature for 2012, which come from two datasets. Therefore, there might be mismatches in the country names, such as one dataset using 'USA' and another using 'United States of America'. In this case, we simply used the method of an inner join.)
 
 - ### *Vaccines*：
 
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
-| Country                  |                                                                                 |
-| Year                     |                                                                                 |
-| Month                    |                                                                                 |
+| Country                  | This is the country for which the vaccination information is provided           |
+| Year                     | Year for the data entry                                                         |
+| Month                    | Month for the data entry                                                        |
 | PeopleVaccinated         |                                                                                 |
 | PeopleFullyVaccinated    |                                                                                 |
 | MonthlyVaccinations      |                                                                                 |
