@@ -18,30 +18,58 @@
 
 
 
-# Database Design
+# <span style="background-color: yellow;">Database Design</span>
 Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://baidu.com "Link to Normalization") | [SQL Query](http://baidu.com "Link to SQL Query")
 
 ## Overview of the Datasets:
 - *Covid Cases*:
-
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
-| Country                  |                                                                               |
-| Year                     |                                                                               |
-| Month                    |                                                                               |
-| CumulativeTotalCases     |                                                                               |
-| MonthlyNewCases          |                                                                               |
-| ActiveCases              |                                                                               |
-| CumulativeTotalDeaths    |                                                                               |
-| MonthlyNewDeaths         |                                                                               |
-
+| Country                  |                                                                                 |
+| Year                     |                                                                                 |
+| Month                    |                                                                                 |
+| CumulativeTotalCases     |                                                                                 |
+| MonthlyNewCases          |                                                                                 |
+| ActiveCases              |                                                                                 |
+| CumulativeTotalDeaths    |                                                                                 |
+| MonthlyNewDeaths         |                                                                                 |
+*Primary key*: (Country, Year, Month)
 
 - *GDP*：
-
+| Attributes               | Explanation                                                                     |
+| :----------------------- | :------------------------------------------------------------------------------ |
+| Country                  |                                                                                 |
+| Year                     |                                                                                 |
+| Month                    |                                                                                 |
+| CumulativeTotalCases     |                                                                                 |
+| MonthlyNewCases          |                                                                                 |
+| ActiveCases              |                                                                                 |
+| CumulativeTotalDeaths    |                                                                                 |
+| MonthlyNewDeaths         |                                                                                 |
+*Primary key*: (Country, Year, Month)
 
 - *Temperature*：
-
+| Attributes               | Explanation                                                                     |
+| :----------------------- | :------------------------------------------------------------------------------ |
+| Country                  |                                                                                 |
+| Year                     |                                                                                 |
+| Month                    |                                                                                 |
+| CumulativeTotalCases     |                                                                                 |
+| MonthlyNewCases          |                                                                                 |
+| ActiveCases              |                                                                                 |
+| CumulativeTotalDeaths    |                                                                                 |
+| MonthlyNewDeaths         |                                                                                 |
+*Primary key*: (Country, Year, Month)
 
 - *Vaccines*：
-
-<span style="color: red; background-color: yellow;">这是红色文字，黄色背景</span>
+| Attributes               | Explanation                                                                     |
+| :----------------------- | :------------------------------------------------------------------------------ |
+| Country                  |                                                                                 |
+| Year                     |                                                                                 |
+| Month                    |                                                                                 |
+| CumulativeTotalCases     |                                                                                 |
+| MonthlyNewCases          |                                                                                 |
+| ActiveCases              |                                                                                 |
+| CumulativeTotalDeaths    |                                                                                 |
+| MonthlyNewDeaths         |                                                                                 |
+*Primary key*: (Country, Year, Month)
