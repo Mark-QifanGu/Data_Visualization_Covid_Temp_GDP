@@ -22,8 +22,8 @@
 
 ## 1.Extract Covid-19 Case Trends for Specific Countries
 
-'''sql
+```sql
 SELECT * FROM Covid_Data WHERE Country = 'China' ORDER BY Year, Month;
-
+```
 
 
