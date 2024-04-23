@@ -12,6 +12,9 @@ nav ul li {
 nav ul ul {
     display: none; /* 默认隐藏二级菜单 */
     position: absolute; /* 绝对定位二级菜单 */
+    left: 0; /* 与父项左对齐 */
+    min-width: 100%; /* 二级菜单宽度至少与父项一致 */
+     z-index: 1000; /* 确保二级菜单在其他内容之上 */
 }
 
 nav ul li:hover > ul {
