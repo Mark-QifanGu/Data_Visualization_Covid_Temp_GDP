@@ -40,3 +40,6 @@
 | Unemployment             | The unemployment number of the country for that year.                         |
 
 *Primary key*: (Country, Year)
+
+
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/GDP.png" width="90%" alt="Economic and GDP">
