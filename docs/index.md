@@ -14,11 +14,9 @@
         <li><a href="#">Other Visualization</a></li>
     </ul>
 </nav>
-# Database Design
-Link:  [ER Model][id1]  [Normalization][id2]  [SQL Query][id3]
-[id1]:baidu.com"Link to ER Model"
-[id2]:baidu.com"Link to Normalization"
-[id3]:baidu.com"Link to SQL Query"
+
+#Database Design
+Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://baidu.com "Link to Normalization") | [SQL Query](http://baidu.com "Link to SQL Query")
 
 ## Overview of the Datasets:
 1.Covid Cases
