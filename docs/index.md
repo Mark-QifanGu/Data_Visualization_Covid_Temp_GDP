@@ -91,14 +91,14 @@ https://www.kaggle.com/datasets/gauravduttakiit/global-temperature?select=Global
 
 | Attributes               | Explanation                                                                     |
 | :----------------------- | :------------------------------------------------------------------------------ |
-| Country                  | This is the country for which the vaccination information is provided           |
-| Year                     | Year for the data entry                                                         |
-| Month                    | Month for the data entry                                                        |
-| PeopleVaccinated         |                                                                                 |
-| PeopleFullyVaccinated    |                                                                                 |
-| MonthlyVaccinations      |                                                                                 |
-| PeopleVacPerHundred      |                                                                                 |
-| PeopleFullyVacPerHundred |                                                                                 |
+| Country                  | This is the country for which the vaccination information is provided.         |
+| Year                     | Year for the data entry.                                                       |
+| Month                    | Month for the data entry.                                                      |
+| PeopleVaccinated         | A person, depending on the immunization scheme, will receive one or more (typically 2) vaccines; at a certain moment, the number of vaccination might be larger than the number of people.|
+| PeopleFullyVaccinated    | This is the number of people that received the entire set of immunization according to the immunization scheme (typically 2); at a certain moment in time, there might be a certain number of people that received one vaccine and another number (smaller) of people that received all vaccines in the scheme.|
+| MonthlyVaccinations      | For a certain month, the number of vaccination for that date/country           |
+| PeopleVacPerHundred      | Ratio (in percent) between population immunized and total population up to the date in the country.|
+| PeopleFullyVacPerHundred | Ratio (in percent) between population fully immunized and total population up to the date in the country.|
 
 *Primary key*: (Country, Year, Month)
 				
