@@ -32,7 +32,7 @@ Second Normal Form (2NF) --><sub>remove transitive dependencies</sub> Third Norm
 
 ### 2 NF:
 
-<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Norm.png" width="90%" alt="Normalization 2NF">
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/2NF.png" width="90%" alt="Normalization 2NF">
 
 
 ### 3 NF:
