@@ -1,25 +1,25 @@
 <link rel="stylesheet" href="style.css">
 <nav>
     <ul>
-        <li><a href="/Data_Visualization_Covid_Temp_GDP/docs/">Database Design</a>
+        <li><a href="/Data_Visualization_Covid_Temp_GDP/">Database Design</a>
             <ul>
-                <li><a href="/ER/index.md">ER Model</a></li>
-                <li><a href="/Norm/index.md">Normalization</a></li>
-                <li><a href="/Query/index.md">SQL Query</a></li>
+                <li><a href="/Data_Visualization_Covid_Temp_GDP/ER/">ER Model</a></li>
+                <li><a href="/Data_Visualization_Covid_Temp_GDP/Norm/">Normalization</a></li>
+                <li><a href="/Data_Visualization_Covid_Temp_GDP/Query/">SQL Query</a></li>
             </ul>
         </li>
-        <li><a href="/Cases/index.md">Covid Cases</a></li>
-        <li><a href="/GDP/index.md">GDP</a></li>
-        <li><a href="/Temp/index.md">Temperature</a></li>
-        <li><a href="/Vac/index.md">Vaccines</a></li>
-        <li><a href="/Visual/index.md">Other Visualization</a></li>
+        <li><a href="/Data_Visualization_Covid_Temp_GDP/Cases/">Covid Cases</a></li>
+        <li><a href="/Data_Visualization_Covid_Temp_GDP/GDP/">GDP</a></li>
+        <li><a href="//Data_Visualization_Covid_Temp_GDPTemp/">Temperature</a></li>
+        <li><a href="/Data_Visualization_Covid_Temp_GDP/Vac/">Vaccines</a></li>
+        <li><a href="/Data_Visualization_Covid_Temp_GDP/Visual/">Other Visualization</a></li>
     </ul>
 </nav>
 
 
 
 # <span style="background-color: yellow;">Database Design</span>
-Link: [ER Model](ER/ "Link to ER Model") | [Normalization](../Norm/index.md "Link to Normalization") | [SQL Query](../Query/index.md "Link to SQL Query")
+Link: [ER Model](ER/ "Link to ER Model") | [Normalization](Norm/ "Link to Normalization") | [SQL Query](Query/ "Link to SQL Query")
 
 ## Overview of the Datasets:
 - *Covid Cases*:
