@@ -34,4 +34,4 @@
 *Primary key*: (Country, Year, Month)
 
 
-<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/S1.png" width="90%" alt="SQL Query result 1">
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/cases.png" width="90%" alt="covid cases">
