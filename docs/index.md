@@ -19,7 +19,7 @@
 
 
 # <span style="background-color: yellow;">Database Design</span>
-Link: [ER Model](../ER/index.md "Link to ER Model") | [Normalization](../Norm/index.md "Link to Normalization") | [SQL Query](../Query/index.md "Link to SQL Query")
+Link: [ER Model](ER/ "Link to ER Model") | [Normalization](../Norm/index.md "Link to Normalization") | [SQL Query](../Query/index.md "Link to SQL Query")
 
 ## Overview of the Datasets:
 - *Covid Cases*:
