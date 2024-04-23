@@ -76,14 +76,13 @@ Original dataset: https://www.kaggle.com/datasets/yusufglcan/country-data
 | Month                    | The month for the row of data.                                                |
 | AvgTemperature           | The average temperature for the country in that month.                        |
 
-*Primary key*: (Country, Year, Month)
-
-Original dataset: https://www.fao.org/faostat/en/#data/ET/metadata
-Reference:
-https://data.giss.nasa.gov/gistemp/
-https://www.columbia.edu/~mhs119/Temperature/
-https://earthobservatory.nasa.gov/world-of-change/global-temperatures
-https://www.kaggle.com/datasets/gauravduttakiit/global-temperature?select=GlobalLandTemperaturesByCountry.csv
+*Primary key*: (Country, Year, Month)<br>
+Original dataset: https://www.fao.org/faostat/en/#data/ET/metadata<br>
+Reference:<br>
+https://data.giss.nasa.gov/gistemp/<br>
+https://www.columbia.edu/~mhs119/Temperature/<br>
+https://earthobservatory.nasa.gov/world-of-change/global-temperatures<br>
+https://www.kaggle.com/datasets/gauravduttakiit/global-temperature?select=GlobalLandTemperaturesByCountry.csv<br>
 
 (Notice: We used the monthly average temperature difference plus the standard baseline monthly average temperature for 2012, which come from two datasets. Therefore, there might be mismatches in the country names, such as one dataset using 'USA' and another using 'United States of America'. In this case, we simply used the method of an inner join.)
 
