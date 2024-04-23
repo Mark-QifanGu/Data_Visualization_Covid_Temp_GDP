@@ -18,4 +18,14 @@
 
 
 
-# <span style="background-color: yellow;">Database Design</span>
+# <span style="background-color: yellow;">Temperature</span>
+
+| Attributes               | Explanation                                                                     |
+| :----------------------- | :------------------------------------------------------------------------------ |
+| AreaCode                 | An areacode for each country.                                                 |
+| Country                  | The country name for the row of data.                                         |
+| Year                     | The year for the row of data.                                                 |
+| Month                    | The month for the row of data.                                                |
+| AvgTemperature           | The average temperature for the country in that month.                        |
+
+*Primary key*: (Country, Year, Month)
