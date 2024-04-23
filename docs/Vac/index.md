@@ -32,3 +32,6 @@
 | PeopleFullyVacPerHundred | Ratio (in percent) between population fully immunized and total population up to the date in the country.|
 
 *Primary key*: (Country, Year, Month)
+
+
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/vac.png" width="90%" alt="Vaccinations">
