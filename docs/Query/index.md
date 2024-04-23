@@ -92,3 +92,101 @@ JOIN Economic_Data e ON c.Country = e.Country AND c.Year = e.Year
 WHERE c.Country = 'India';
 ```
 <img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/S9.png" width="90%" alt="SQL Query result 9">
+
+
+## 5.Create Index and View
+
+```sql
+CREATE INDEX idx_monthly_new_cases ON Covid_Data(MonthlyNewCases);
+CREATE VIEW View_Covid_Monthly_Summary AS
+SELECT 
+  Country, 
+  Year, 
+  Month, 
+  CumulativeTotalCases, 
+  MonthlyNewCases
+FROM Covid_Data;
+```
+
+```sql
+CREATE INDEX idx_gdp_year ON Economic_Data(GDP, Year);
+CREATE VIEW View_Economic_Indicators AS
+SELECT 
+  Country, 
+  Year, 
+  GDP, 
+  InflationRate, 
+  Unemployment
+FROM Economic_Data;
+```
+
+```sql
+CREATE INDEX idx_temperature_year_month ON Temperature_Data(Year, Month);
+CREATE VIEW View_Avg_Temperature AS
+SELECT 
+  AreaCode, 
+  Country, 
+  Year, 
+  Month, 
+  AVG(AvgTemperature) AS MonthlyAvgTemperature
+FROM Temperature_Data
+GROUP BY AreaCode, Country, Year, Month;
+```
+
+```sql
+CREATE INDEX idx_fully_vaccinated ON Vaccination_Data(PeopleFullyVaccinated);
+CREATE VIEW View_Vaccination_Progress AS
+SELECT 
+  Country, 
+  Year, 
+  Month, 
+  PeopleVaccinated, 
+  PeopleFullyVaccinated
+FROM Vaccination_Data;
+```
+
+### To verify index:
+```sql
+SHOW INDEX FROM Covid_Data;
+```
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/index.png" width="90%" alt="index">
+
+### To verify views:
+```sql
+DESCRIBE View_Covid_Monthly_Summary; 
+```
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/view.png" width="90%" alt="view">
+
+
+## 6.Create Trigger
+
+```sql
+CREATE TABLE Economic_Data_Audit (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Country VARCHAR(255),
+    Year INT,
+    Old_GDP FLOAT,
+    New_GDP FLOAT,
+    Changed TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+DELIMITER $$
+```
+```sql
+CREATE TRIGGER before_economic_data_update
+BEFORE UPDATE ON Economic_Data
+FOR EACH ROW
+BEGIN
+    IF OLD.GDP != NEW.GDP THEN
+        INSERT INTO Economic_Data_Audit (Country, Year, Old_GDP, New_GDP)
+        VALUES (OLD.Country, OLD.Year, OLD.GDP, NEW.GDP);
+    END IF;
+END$$
+
+DELIMITER ;
+```
+
+### -- Verify Trigger
+```sql
+SHOW TRIGGERS;
+```
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/trigger.png" width="90%" alt="trigger">
