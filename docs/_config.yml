@@ -1,5 +1,7 @@
-baseurl: "/Data_Visualization_Covid_Temp_GDP/docs" # 你的GitHub项目路径加上/docs
+baseurl: "/Data_Visualization_Covid_Temp_GDP/" # 你的GitHub项目路径加上/docs
 url: "https://mark-qifangu.github.io"
 
 markdown: kramdown
 highlighter: rouge
+
+title: "Database Design and Visualization about Covid, Vaccination, Temperature and Economic"
