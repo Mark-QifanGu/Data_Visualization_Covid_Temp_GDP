@@ -1,25 +1,25 @@
 <link rel="stylesheet" href="style.css">
 <nav>
     <ul>
-        <li><a href="#">Database Design</a>
+        <li><a href="../docs/index.md">Database Design</a>
             <ul>
-                <li><a href="#">ER Model</a></li>
-                <li><a href="#">Normalization</a></li>
-                <li><a href="#">SQL Query</a></li>
+                <li><a href="../ER/index.md">ER Model</a></li>
+                <li><a href="../Norm/index.md">Normalization</a></li>
+                <li><a href="../Query/index.md">SQL Query</a></li>
             </ul>
         </li>
-        <li><a href="#">Covid Cases</a></li>
-        <li><a href="#">GDP</a></li>
-        <li><a href="#">Temperature</a></li>
-        <li><a href="#">Vaccines</a></li>
-        <li><a href="#">Other Visualization</a></li>
+        <li><a href="../Cases/index.md">Covid Cases</a></li>
+        <li><a href="../GDP/index.md">GDP</a></li>
+        <li><a href="../Temp/index.md">Temperature</a></li>
+        <li><a href="../Vac/index.md">Vaccines</a></li>
+        <li><a href="../Visual/index.md">Other Visualization</a></li>
     </ul>
 </nav>
 
 
 
 # <span style="background-color: yellow;">Database Design</span>
-Link: [ER Model](http://baidu.com "Link to ER Model") | [Normalization](http://baidu.com "Link to Normalization") | [SQL Query](http://baidu.com "Link to SQL Query")
+Link: [ER Model](../ER/index.md "Link to ER Model") | [Normalization](../Norm/index.md "Link to Normalization") | [SQL Query](../Query/index.md "Link to SQL Query")
 
 ## Overview of the Datasets:
 - *Covid Cases*:
