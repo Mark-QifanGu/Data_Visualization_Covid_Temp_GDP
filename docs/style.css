@@ -15,7 +15,9 @@ nav ul ul {
     position: absolute; /* 绝对定位二级菜单 */
     left: 0; /* 与父项左对齐 */
     min-width: 100%; /* 二级菜单宽度至少与父项一致 */
-     z-index: 1000; /* 确保二级菜单在其他内容之上 */
+    z-index: 1000; /* 确保二级菜单在其他内容之上 */
+    padding: 0; /* 移除默认的内边距 */
+    margin: 0; /* 移除默认的外边距 */
 }
 
 nav ul li:hover > ul {
