@@ -1,1 +1,33 @@
+nav ul {
+    list-style-type: none; /* 移除列表项的默认标记 */
+    padding: 0; /* 移除默认的内边距 */
+    margin: 0; /* 移除默认的外边距  */
+}
 
+nav ul li {
+    display: inline-block; /* 将列表项设为内联块级元素，使其水平排列 */
+    margin-right: 10px; /* 在列表项之间添加一些间距 */
+    position: relative; /* 添加相对定位属性 */
+    background-color: #f2f2f2; /* 浅灰色底色 */
+    padding: 10px; /* 添加一些内边距 */
+}
+
+nav ul ul {
+    display: none; /* 默认隐藏二级菜单 */
+    position: absolute; /* 绝对定位二级菜单 */
+    left: 0; /* 与父项左对齐 */
+    min-width: 100%; /* 二级菜单宽度至少与父项一致 */
+    z-index: 1000; /* 确保二级菜单在其他内容之上 */
+    padding: 0; /* 移除默认的内边距 */
+    margin: 0; /* 移除默认的外边距 */
+}
+
+nav ul li:hover > ul {
+    display: block; /* 当鼠标悬停在列表项上时显示二级菜单 */
+}
+
+nav ul ul li {
+    display: block; /* 保证二级菜单项竖直排列 */
+    background-color: #f2f2f2; /* 浅灰色底色 */
+    padding: 10px; /* 添加一些内边距 */
+}
