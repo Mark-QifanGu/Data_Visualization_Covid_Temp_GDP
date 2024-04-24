@@ -20,5 +20,15 @@
 
 # <span style="background-color: yellow;">Other Visualization</span>
 
+Other Visualization Dash Website link: 
+<br>
 
-Visualization Dash Website link: 
+### Correlation Heatmap:
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Heatmap.png" width="90%" alt="Heatmap">
+CumulativeTotalCases and CumulativeTotalDeaths ; people vaccine and people fully vaccine , the two pairs seem to have the most correlation, which is 0.92, much larger than 0.8.<br>
+
+
+### Correlation Heatmap:
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Heatmap.png" width="90%" alt="Heatmap">
+CumulativeTotalCases and CumulativeTotalDeaths ; people vaccine and people fully vaccine , the two pairs seem to have the most correlation, which is 0.92, much larger than 0.8.
+
