@@ -27,8 +27,15 @@ Other Visualization Dash Website link:
 <img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Heatmap.png" width="90%" alt="Heatmap">
 CumulativeTotalCases and CumulativeTotalDeaths ; people vaccine and people fully vaccine , the two pairs seem to have the most correlation, which is 0.92, much larger than 0.8.<br>
 
+### Rugplot:
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/rugplot.png" width="90%" alt="rugplot">
+It seems that most cases distribute in 0~0.125e7 <br>
 
-### Correlation Heatmap:
-<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Heatmap.png" width="90%" alt="Heatmap">
-CumulativeTotalCases and CumulativeTotalDeaths ; people vaccine and people fully vaccine , the two pairs seem to have the most correlation, which is 0.92, much larger than 0.8.
+### Implot:
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Implot.png" width="90%" alt="Implot">
 
+### Lineplot:
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/top10CasesLineplot.png" width="90%" alt="top10CasesLineplot">
+
+### Barplot:
+<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/top3CasesBarplot.png" width="90%" alt="top3CasesBarplot">
