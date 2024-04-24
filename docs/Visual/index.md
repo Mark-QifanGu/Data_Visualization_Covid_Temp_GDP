@@ -22,6 +22,7 @@
 
 Other Visualization Dash Website link: 
 <br>
+[maplink](/Data_Visualization_Covid_Temp_GDP/Visual/map/)
 
 ### Correlation Heatmap:
 <img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/Heatmap.png" width="90%" alt="Heatmap">
