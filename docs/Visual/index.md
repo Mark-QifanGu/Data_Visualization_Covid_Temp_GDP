@@ -20,7 +20,7 @@
 
 # <span style="background-color: yellow;">Other Visualization</span>
 
-Other Visualization Dash Website link: 
+Other Visualization Dash Website link: https://dashapp-oidifediiq-uk.a.run.app/
 <br>
 [maplink](/Data_Visualization_Covid_Temp_GDP/Visual/map/)
 
