@@ -2,5 +2,5 @@
 Database Design and Data visualization of global covid cases, vaccines, tempereature and GDP
 
 <span style="background-color: yellow;">Website: https://mark-qifangu.github.io/Data_Visualization_Covid_Temp_GDP/</span> <br>
-The link below is temporarily unavailable.
+The link below is temporarily unavailable.<br>
 Interactive Dashboard Website link: https://dashapp-oidifediiq-uk.a.run.app/
