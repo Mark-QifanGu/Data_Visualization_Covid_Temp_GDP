@@ -20,8 +20,10 @@
 
 # <span style="background-color: yellow;">Other Visualization</span>
 
-Other Visualization Dash Website link: [https://dashapp-oidifediiq-uk.a.run.app/](https://dashapp-oidifediiq-uk.a.run.app/)
+（Other Visualization Dash Website link: [https://dashapp-oidifediiq-uk.a.run.app/](https://dashapp-oidifediiq-uk.a.run.app/)
 <br>
+Access to the dash link has been temporarily suspended due to budgetary limitations.)<br>
+
 [maplink](/Data_Visualization_Covid_Temp_GDP/Visual/map/)
 
 ### Correlation Heatmap:
