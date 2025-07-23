@@ -161,39 +161,3 @@ DESCRIBE View_Covid_Monthly_Summary;
 ```
 <img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/view.png" width="90%" alt="view">
 
-
-## 6.Create Trigger
-
-```sql
-CREATE TABLE Economic_Data_Audit (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    Country VARCHAR(255),
-    Year INT,
-    Old_GDP FLOAT,
-    New_GDP FLOAT,
-    Changed TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
-DELIMITER $$
-```
-<br>
-
-```sql
-CREATE TRIGGER before_economic_data_update
-BEFORE UPDATE ON Economic_Data
-FOR EACH ROW
-BEGIN
-    IF OLD.GDP != NEW.GDP THEN
-        INSERT INTO Economic_Data_Audit (Country, Year, Old_GDP, New_GDP)
-        VALUES (OLD.Country, OLD.Year, OLD.GDP, NEW.GDP);
-    END IF;
-END$$
-
-DELIMITER ;
-```
-<br>
-
-### -- Verify Trigger
-```sql
-SHOW TRIGGERS;
-```
-<img src="https://raw.githubusercontent.com/Mark-QifanGu/Data_Visualization_Covid_Temp_GDP/main/images/trigger.png" width="90%" alt="trigger">
